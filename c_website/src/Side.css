@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px; 
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .profile-info h2,
+  .profile-info h5 {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px; 
+  }
+  
+  .menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: black;
+  }
+  
+  .nav-links.open {
+    display: flex;
+  }
+  
+  .main-content {
+    padding: 20px;
+    overflow-y: auto; /* Enables scrolling */
+    flex: 1;
+    height: calc(100vh);
+  }
+  
+  /* Tablet */
+  @media (min-width: 768px) {
+    .nav-links {
+      display: flex !important;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      flex-direction: row;
+    }
+  
+    .header {
+      flex: 0 0 250px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* ⬅️ Center contents vertically */
+      align-items: center;
+      position: relative;
+    }
+  
+    .top-row {
+      flex-direction: column;
+      align-items: center;
+      width: 100%; /* Optional: ensures nav/menu takes full width */
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+    }
+    .header-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Or use space-between if needed */
+      align-items: center;
+      height: auto; /* Adjust if needed */
+      gap: 20px;
+    }
+    .desktop-only {
+      margin-top: 20px;
+    }
+  
+    .main-content {
+      flex: 1;
+      padding: 40px;
+    }
+  }
+  
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 0.9rem;
+    margin-top: 1px;
+    margin-bottom: 20px; 
+  }
+  
+  .social-icons a {
+    color: #444;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: black;
+  }
+  
+  /* Responsive visibility for social icons */
+  .mobile-only {
+    display: flex;
+  }
+  
+  .desktop-only {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .mobile-only {
+      display: none;
+    }
+  
+    .desktop-only {
+      display: flex;
+      margin-top: auto;
+      margin-bottom: 20px;
+    }
+  }
+  
