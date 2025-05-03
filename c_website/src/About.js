@@ -17,32 +17,24 @@ function About() {
 
         <div className="about-details">
           <p>
-          Hi, I'm Suad Ali Hersi. I’m currently completing my Master’s in Artificial Intelligence at Queen Mary University of London, finishing in September. 
-          My academic background has given me a solid foundation in AI theory, and I’m now actively seeking junior roles where I can apply and grow these skills in real-world settings.
+          Hi! I’m Suad, currently diving deep into the world of Artificial Intelligence and eager to apply what I’ve learned to real-world impact. My journey has taken me across countries and cultures, shaping how I collaborate, solve problems, and communicate.
           </p>
 
           <h2>Background & Journey</h2>
           <p>
-            I grew up in Kenya and have lived in several countries, which has made me adaptable, versatile, and comfortable working with diverse teams. 
-            My journey into AI started from a deep curiosity about how intelligent systems work and how they can be applied to solve real-world problems. 
-            Although I haven't yet built full AI solutions, I’ve gained theoretical experience through university projects in areas like machine learning and natural language processing.
+          Having lived in Denmark, Kenya, and now England, I’ve learned to adapt quickly, embrace different perspectives, and thrive in diverse teams. Each place has shaped how I communicate, collaborate, and approach challenges.
           </p>
 
           <h2>What Drives Me</h2>
           <p>
-           I’m especially interested in startups, where I believe there’s room to learn quickly, make an impact, and contribute to meaningful innovation. 
-           I’m open to work opportunities and flexible with location. I’m eager to work in environments where I can collaborate, grow, and help bring AI ideas to life.
+          I want to use what I know to make a real, positive impact—whether through tech or collaboration. I'm open to opportunities wherever I can help create meaningful change.
            </p>
 
           <h2>Hobbies & Interests</h2>
           <p>
-          Outside of tech, I enjoy go-karting, traveling, and discovering new technologies. I'm always up for a challenge and enjoy stepping into new spaces that help me learn and evolve.
+          Outside of tech, I enjoy go-karting, traveling, and hiking—anything that challenges me and helps me grow.
           </p>
 
-          <h2>Get in Touch</h2>
-          <p>
-          If you're looking for a motivated and adaptable early-career AI graduate, I’d love to hear from you. I’m open to internships, junior roles, and collaborative projects — especially within innovative or startup environments.
-          </p>
         </div>
       </div>
     </section>

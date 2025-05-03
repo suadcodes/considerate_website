@@ -2,6 +2,8 @@
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
 }
 
 .about-header {
@@ -10,8 +12,10 @@
 }
 
 .about-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .description {
@@ -43,15 +47,15 @@
 }
 
 .about-details h2 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   margin-top: 20px;
   color: #333;
 }
 
 .about-details p {
   font-size: 1.1rem;
-  line-height: 1.8;
-  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {

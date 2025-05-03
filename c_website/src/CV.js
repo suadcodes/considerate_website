@@ -9,7 +9,6 @@ const CV = () => {
         <p className="cv-title">AI Problem Solver | MSc Artificial Intelligence</p>
         <div className="cv-contact">
           <a href="mailto:suadah473@gmail.com">suadah473@gmail.com</a> | 
-          <a href="tel:+447404973807">+44 7404 973807</a> | 
           <a href="https://www.linkedin.com/in/suad-hersi9" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
